@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UptimeRobot</string>
+    <string name="api_key">u411613-48e0676a472daaf5e1cbadb1</string>
+
+    <string name="menu_header1">Actions</string>
+    <string name="menu_sub1_1">View monitors</string>
+    <string name="menu_header2">Settings</string>
+    <string name="menu_header3">About</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

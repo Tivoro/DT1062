@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory android:title="Colors">
+        <android.support.v7.preference.EditTextPreference
+            android:key="colorUp"
+            android:title="Color status: Up"
+            android:digits="012345689abcdef"
+            android:summary="Default: #00c853"
+            android:defaultValue="0"/>
+
+        <android.support.v7.preference.EditTextPreference
+            android:key="colorDown"
+            android:title="Color status: Down"
+            android:summary="Default: #e53935"
+            android:defaultValue="0"/>
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory android:title="API settings">
+        <android.support.v7.preference.EditTextPreference
+            android:key="updateInterval"
+            android:title="Update frequency (seconds)"
+            android:summary="Enter the background update frequency in seconds"
+            android:defaultValue="5" />
+        <android.support.v7.preference.EditTextPreference
+            android:key="API_KEY"
+            android:title="Your API key"
+            android:summary="Enter your Uptime Robot API key here"
+            android:defaultValue="u411613-48e0676a472daaf5e1cbadb1"/>
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
